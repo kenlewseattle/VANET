@@ -1,0 +1,40 @@
+%NAME%
+mingw-w64-x86_64-clang
+
+%VERSION%
+12.0.0-7
+
+%BASE%
+mingw-w64-clang
+
+%DESC%
+C language family frontend for LLVM (mingw-w64)
+
+%URL%
+https://clang.llvm.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1624091794
+
+%INSTALLDATE%
+1628510246
+
+%PACKAGER%
+CI (msys2-autobuild/d20d37a6/952101643)
+
+%SIZE%
+285441851
+
+%LICENSE%
+custom:Apache 2.0 with LLVM Exception
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+mingw-w64-x86_64-llvm=12.0.0-7
+mingw-w64-x86_64-gcc
+

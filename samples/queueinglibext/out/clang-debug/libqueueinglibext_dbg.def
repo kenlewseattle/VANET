@@ -1,0 +1,98 @@
+EXPORTS
+    _ZN7SinkExt10initializeEv @1
+    _ZN7SinkExt13handleMessageEPN7omnetpp8cMessageE @2
+    _ZN7SinkExtC2Ev @3
+    _ZN7SinkExtD0Ev @4
+    _ZN7SinkExtD2Ev @5
+    _ZN7omnetpp10cComponent10initializeEi @6
+    _ZN7omnetpp10cComponent12recordScalarEPKcNS_7SimTimeES2_ @7
+    _ZN7omnetpp10cComponent4emitEiPKNS_7cObjectEPS1_ @8
+    _ZN7omnetpp10cComponent4emitEicPNS_7cObjectE @9
+    _ZN7omnetpp10cComponent4emitEiePNS_7cObjectE @10
+    _ZN7omnetpp10cComponent4emitEifPNS_7cObjectE @11
+    _ZN7omnetpp10cComponent4emitEihPNS_7cObjectE @12
+    _ZN7omnetpp10cComponent4emitEiiPNS_7cObjectE @13
+    _ZN7omnetpp10cComponent4emitEijPNS_7cObjectE @14
+    _ZN7omnetpp10cComponent4emitEisPNS_7cObjectE @15
+    _ZN7omnetpp10cComponent4emitEitPNS_7cObjectE @16
+    _ZN7omnetpp10cComponent9setRNGMapEsPi @17
+    _ZN7omnetpp12cDefaultList17setPerformFinalGCEb @18
+    _ZN7omnetpp12cNamedObject14getNamePoolingEv @19
+    _ZN7omnetpp12cNamedObject7setFlagEib @20
+    _ZN7omnetpp13cSimpleModule4sendEPNS_8cMessageEPKci @21
+    _ZN7omnetpp13cSimpleModule4sendEPNS_8cMessageEPNS_5cGateE @22
+    _ZN7omnetpp13cSimpleModule4sendEPNS_8cMessageEi @23
+    _ZN7omnetpp7SimTime12assertInitedIdEEvT_ @24
+    _ZN7omnetpp7SimTime7toInt64Ed @25
+    _ZN7omnetpp7SimTimeC2ERKS0_ @26
+    _ZN7omnetpp7SimTimeC2Ed @27
+    _ZN7omnetpp7SimTimeaSEd @28
+    _ZN7omnetpp7cModule27setBuiltinAnimationsAllowedEb @29
+    _ZN7omnetpp9bernoulliEPNS_4cRNGEd @30
+    _ZN7omnetpp9lognormalEPNS_4cRNGEdd @31
+    _ZN8queueing4SinkC2Ev @32
+    _ZN8queueing4SinkD2Ev @33
+    _ZNK7SinkExt14refreshDisplayEv @34
+    _ZNK7omnetpp10cComponent10chi_squareEji @35
+    _ZNK7omnetpp10cComponent10intuniformEiii @36
+    _ZNK7omnetpp10cComponent11exponentialENS_7SimTimeEi @37
+    _ZNK7omnetpp10cComponent11exponentialEdi @38
+    _ZNK7omnetpp10cComponent11negbinomialEidi @39
+    _ZNK7omnetpp10cComponent11truncnormalENS_7SimTimeES1_i @40
+    _ZNK7omnetpp10cComponent11truncnormalEddi @41
+    _ZNK7omnetpp10cComponent12getNumParamsEv @42
+    _ZNK7omnetpp10cComponent13numInitStagesEv @43
+    _ZNK7omnetpp10cComponent14intuniformexclEiii @44
+    _ZNK7omnetpp10cComponent14pareto_shiftedEdddi @45
+    _ZNK7omnetpp10cComponent4betaEddi @46
+    _ZNK7omnetpp10cComponent6cauchyEddi @47
+    _ZNK7omnetpp10cComponent6normalENS_7SimTimeES1_i @48
+    _ZNK7omnetpp10cComponent6normalEddi @49
+    _ZNK7omnetpp10cComponent6triangEdddi @50
+    _ZNK7omnetpp10cComponent7dblrandEi @51
+    _ZNK7omnetpp10cComponent7gamma_dEddi @52
+    _ZNK7omnetpp10cComponent7intrandEli @53
+    _ZNK7omnetpp10cComponent7poissonEdi @54
+    _ZNK7omnetpp10cComponent7uniformENS_7SimTimeES1_i @55
+    _ZNK7omnetpp10cComponent7uniformEddi @56
+    _ZNK7omnetpp10cComponent7weibullEddi @57
+    _ZNK7omnetpp10cComponent8binomialEidi @58
+    _ZNK7omnetpp10cComponent8erlang_kEjdi @59
+    _ZNK7omnetpp10cComponent9bernoulliEdi @60
+    _ZNK7omnetpp10cComponent9geometricEdi @61
+    _ZNK7omnetpp10cComponent9lognormalEddi @62
+    _ZNK7omnetpp10cComponent9student_tEji @63
+    _ZNK7omnetpp12cDefaultList11isSoftOwnerEv @64
+    _ZNK7omnetpp12cNamedObject7getNameEv @65
+    _ZNK7omnetpp12cOwnedObject13isOwnedObjectEv @66
+    _ZNK7omnetpp12cOwnedObject8getOwnerEv @67
+    _ZNK7omnetpp7SimTime3dblEv @68
+    _ZNK7omnetpp7cModule13hasSubmodulesEv @69
+    _ZNK7omnetpp7cModule13isPlaceholderEv @70
+    _ZNK7omnetpp7cModule16getComponentKindEv @71
+    _ZNK7omnetpp7cModule27getBuiltinAnimationsAllowedEv @72
+    _ZNK7omnetpp7cObject12detailedInfoB5cxx11Ev @73
+    _ZNK7omnetpp7cObject4infoB5cxx11Ev @74
+    _ZTI7SinkExt @75 DATA
+    _ZTIN7omnetpp10cComponentE @76 DATA
+    _ZTIN7omnetpp11noncopyableE @77 DATA
+    _ZTIN7omnetpp12cDefaultListE @78 DATA
+    _ZTIN7omnetpp12cNamedObjectE @79 DATA
+    _ZTIN7omnetpp12cOwnedObjectE @80 DATA
+    _ZTIN7omnetpp13cSimpleModuleE @81 DATA
+    _ZTIN7omnetpp23cNoncopyableOwnedObjectE @82 DATA
+    _ZTIN7omnetpp7cModuleE @83 DATA
+    _ZTIN7omnetpp7cObjectE @84 DATA
+    _ZTIN8queueing4SinkE @85 DATA
+    _ZTS7SinkExt @86 DATA
+    _ZTSN7omnetpp10cComponentE @87 DATA
+    _ZTSN7omnetpp11noncopyableE @88 DATA
+    _ZTSN7omnetpp12cDefaultListE @89 DATA
+    _ZTSN7omnetpp12cNamedObjectE @90 DATA
+    _ZTSN7omnetpp12cOwnedObjectE @91 DATA
+    _ZTSN7omnetpp13cSimpleModuleE @92 DATA
+    _ZTSN7omnetpp23cNoncopyableOwnedObjectE @93 DATA
+    _ZTSN7omnetpp7cModuleE @94 DATA
+    _ZTSN7omnetpp7cObjectE @95 DATA
+    _ZTSN8queueing4SinkE @96 DATA
+    _ZTV7SinkExt @97 DATA

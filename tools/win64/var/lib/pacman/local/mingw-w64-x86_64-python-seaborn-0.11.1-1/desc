@@ -1,0 +1,54 @@
+%NAME%
+mingw-w64-x86_64-python-seaborn
+
+%VERSION%
+0.11.1-1
+
+%BASE%
+mingw-w64-python-seaborn
+
+%DESC%
+Statistical data visualization using matplotlib (mingw-w64)
+
+%URL%
+https://stanford.edu/~mwaskom/software/seaborn/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1611623215
+
+%INSTALLDATE%
+1628510300
+
+%PACKAGER%
+CI (msys2-autobuild/4eaa5d39/510807583)
+
+%SIZE%
+3210808
+
+%LICENSE%
+BSD
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+mingw-w64-x86_64-python3-seaborn
+
+%DEPENDS%
+mingw-w64-x86_64-python
+mingw-w64-x86_64-python-pandas
+mingw-w64-x86_64-python-matplotlib
+
+%OPTDEPENDS%
+mingw-w64-x86_64-python-statsmodel: for some advanced statistical plots
+mingw-w64-x86_64-python-beautifulsoup4: for getting dataset names
+
+%CONFLICTS%
+mingw-w64-x86_64-python3-seaborn
+
+%PROVIDES%
+mingw-w64-x86_64-python3-seaborn
+

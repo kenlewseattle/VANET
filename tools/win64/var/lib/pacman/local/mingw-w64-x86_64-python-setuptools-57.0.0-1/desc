@@ -1,0 +1,56 @@
+%NAME%
+mingw-w64-x86_64-python-setuptools
+
+%VERSION%
+57.0.0-1
+
+%BASE%
+mingw-w64-python-setuptools
+
+%DESC%
+Easily download, build, install, upgrade, and uninstall Python packages (mingw-w64)
+
+%URL%
+https://pypi.org/pypi/setuptools
+
+%ARCH%
+any
+
+%BUILDDATE%
+1622100340
+
+%INSTALLDATE%
+1628510276
+
+%PACKAGER%
+CI (msys2-autobuild/16f20bf2/881231067)
+
+%SIZE%
+5488809
+
+%REASON%
+1
+
+%LICENSE%
+PSF
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+mingw-w64-x86_64-python3-setuptools
+
+%DEPENDS%
+mingw-w64-x86_64-python
+
+%OPTDEPENDS%
+mingw-w64-x86_64-python-certifi: Mozilla's CA Bundle support
+mingw-w64-x86_64-python-wincertstore: Windows' cert store support
+
+%CONFLICTS%
+mingw-w64-x86_64-python3-setuptools
+mingw-w64-x86_64-python2-setuptools<42.0.2
+
+%PROVIDES%
+mingw-w64-x86_64-python3-setuptools
+

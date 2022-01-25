@@ -1,0 +1,7 @@
+Double click mingwenv.cmd
+
+./configure
+
+make
+
+omnetpp

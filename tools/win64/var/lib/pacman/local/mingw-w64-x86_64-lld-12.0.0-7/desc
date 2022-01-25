@@ -1,0 +1,39 @@
+%NAME%
+mingw-w64-x86_64-lld
+
+%VERSION%
+12.0.0-7
+
+%BASE%
+mingw-w64-clang
+
+%DESC%
+Linker tools for LLVM (mingw-w64)
+
+%URL%
+https://lld.llvm.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1624091794
+
+%INSTALLDATE%
+1628510272
+
+%PACKAGER%
+CI (msys2-autobuild/d20d37a6/952101643)
+
+%SIZE%
+42606428
+
+%LICENSE%
+custom:Apache 2.0 with LLVM Exception
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+mingw-w64-x86_64-llvm=12.0.0-7
+

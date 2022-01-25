@@ -1,0 +1,5 @@
+SET(prefix "/mingw64")
+SET(exec_prefix "${prefix}")
+SET(XAPIAN_LIBRARIES "${exec_prefix}/lib/libxapian.dll" CACHE FILEPATH "Libraries for Xapian")
+SET(XAPIAN_INCLUDE_DIR "${prefix}/include" CACHE PATH "Include path for Xapian")
+SET(XAPIAN_FOUND "TRUE")

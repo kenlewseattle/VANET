@@ -1,0 +1,22 @@
+23:24:17 **** Build of configuration debug for project Test ****
+make MODE=debug all 
+cd src && /usr/bin/make
+make[1]: Entering directory '/c/Users/simeo/Documents/GitHub/omnetpp-5.7/samples/Test/src'
+Sink.cc
+In file included from Sink.cc:16:
+./Sink.h:35:5: warning: 'cDoubleHistogram' is deprecated [-Wdeprecated-declarations]
+    cDoubleHistogram iaTimeHistogram;
+    ^
+C:/Users/simeo/Documents/GitHub/omnetpp-5.7/include/omnetpp/clegacyhistogram.h:422:7: note: 'cDoubleHistogram' has been explicitly marked deprecated here
+class _OPPDEPRECATED SIM_API cDoubleHistogram : public cLegacyHistogram
+      ^
+C:/Users/simeo/Documents/GitHub/omnetpp-5.7/include/omnetpp/platdep/platdefs.h:58:39: note: expanded from macro '_OPPDEPRECATED'
+#  define _OPPDEPRECATED __attribute((__deprecated__))
+                                      ^
+1 warning generated.
+Source.cc
+Creating executable: ../out/clang-debug/src/Test_dbg.exe
+make[1]: Leaving directory '/c/Users/simeo/Documents/GitHub/omnetpp-5.7/samples/Test/src'
+
+23:24:20 Build Finished. 0 errors, 1 warnings. (took 3s.163ms)
+

@@ -1,0 +1,12 @@
+prefix=/mingw64
+libdir=/mingw64/lib
+includedir=/mingw64/include
+
+Name: poppler-qt5
+Description: Qt5 bindings for poppler
+Version: 20.12.1
+Requires: 
+Requires.private: poppler = 20.12.1
+
+Libs: -L${libdir} -lpoppler-qt5
+Cflags: -I${includedir}/poppler/qt5

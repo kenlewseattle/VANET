@@ -1,0 +1,13 @@
+prefix=/mingw64
+exec_prefix=/mingw64
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gd
+Description: GD graphics library
+Version: 2.3.1
+Requires:
+Requires.private: freetype2, zlib, libpng, xpm, libjpeg, libtiff-4, fontconfig
+Cflags: -I${includedir}
+Libs.private: /mingw64/lib/libiconv.dll.a;/mingw64/lib/libimagequant.dll.a;/mingw64/lib/libwebp.dll.a
+Libs: -L${libdir} -lgd

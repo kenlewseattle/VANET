@@ -1,0 +1,46 @@
+%NAME%
+mingw-w64-x86_64-libglade
+
+%VERSION%
+2.6.4-5
+
+%BASE%
+mingw-w64-libglade
+
+%DESC%
+Allows you to load glade interface files in a program at runtime (mingw-w64)
+
+%URL%
+https://www.gnome.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1516188093
+
+%INSTALLDATE%
+1598545032
+
+%PACKAGER%
+Alexey Pavlov <alexpux@gmail.com>
+
+%SIZE%
+499712
+
+%REASON%
+1
+
+%LICENSE%
+LGPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+mingw-w64-x86_64-gtk2>=2.16.0
+mingw-w64-x86_64-libxml2>=2.7.3
+
+%OPTDEPENDS%
+mingw-w64-x86_64-python2: libglade-convert script
+

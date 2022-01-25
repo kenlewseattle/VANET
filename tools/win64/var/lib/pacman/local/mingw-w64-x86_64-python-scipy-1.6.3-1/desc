@@ -1,0 +1,54 @@
+%NAME%
+mingw-w64-x86_64-python-scipy
+
+%VERSION%
+1.6.3-1
+
+%BASE%
+mingw-w64-python-scipy
+
+%DESC%
+SciPy is open-source software for mathematics, science, and engineering (mingw-w64)
+
+%URL%
+https://www.scipy.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1623657375
+
+%INSTALLDATE%
+1628510299
+
+%PACKAGER%
+CI (msys2-autobuild/16f20bf2/935012945)
+
+%SIZE%
+65320032
+
+%LICENSE%
+BSD
+
+%VALIDATION%
+pgp
+
+%REPLACES%
+mingw-w64-x86_64-python3-scipy
+
+%DEPENDS%
+mingw-w64-x86_64-gcc-libgfortran
+mingw-w64-x86_64-openblas
+mingw-w64-x86_64-python-numpy
+
+%OPTDEPENDS%
+mingw-w64-x86_64-python-nose: testsuite
+mingw-w64-x86_64-python-pillow: for image saving module
+
+%CONFLICTS%
+mingw-w64-x86_64-python3-scipy
+
+%PROVIDES%
+mingw-w64-x86_64-python3-scipy
+
